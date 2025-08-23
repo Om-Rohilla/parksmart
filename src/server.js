@@ -8,7 +8,7 @@ app.get("/" , (req ,res) => {
     res.send("hello from express.js");
 });
 
-//strat server
+//start server
 app.listen(port , () => {
        console.log("server is running properly")
 });
